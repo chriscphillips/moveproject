@@ -7,7 +7,7 @@ end
 post '/name_choice' do
 	fname = params[:fname]
 	fmovie = params[:fmovie]
-	redirect 'result?fname=' + fname + '&fmovie' + fmovie
+	redirect 'result?fname=' + fname + '&fmovie=' + fmovie
 end
 
 get '/result' do
